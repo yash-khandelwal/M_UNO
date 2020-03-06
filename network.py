@@ -5,7 +5,7 @@ import pickle
 class Network:
     def __init__(self):
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.server = "100.113.173.249"
+        self.server = "<your wifi adapter ipv4>"
         self.port = 5555
         self.addr = (self.server, self.port)
         self.id = -1
