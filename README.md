@@ -18,3 +18,5 @@ on creation of object of Game class will initiate a room for the clients to come
 define the different components of GUI of the client side game.
 # player.py:
 copntains the information of the players.
+# network.py:
+contains the information about network communication system. to configure it for your system u need to insert yout PCs wifi adapter IPv4 to the 8th line of this file https://github.com/yash-khandelwal/M_UNO/blob/1ee983854016c764a1d36747f6d4a052dd04fec7/network.py#L8.
